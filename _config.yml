@@ -4,11 +4,11 @@ description: "A simple blog powered by Jekyll and GitHub Pages."
 remote_theme: pages-themes/hacker@v0.2.0
 
 # Default Permalink
-permalink: /TestBlog/:title/
+permalink: /:title/
 
 # Base URL
 url: "https://username.github.io"
-baseurl: ""
+baseurl: "/TestBlog"
 
 # Header Navigation
 header_pages:
