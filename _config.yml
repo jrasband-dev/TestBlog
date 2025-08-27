@@ -1,7 +1,7 @@
 title: "My GitHub Blog"
 author: "Your Name"
 description: "A simple blog powered by Jekyll and GitHub Pages."
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
 
 # Default Permalink
 permalink: /:title/
