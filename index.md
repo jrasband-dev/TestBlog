@@ -4,4 +4,4 @@ title: "Home"
 ---
 
 Welcome to my blog! 🎉  
-See the [About page]({{ "/TestBlog/about/" | relative_url }}).
+See the [About page]("/TestBlog/about/").
