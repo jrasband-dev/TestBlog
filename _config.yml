@@ -3,10 +3,18 @@ author: "Your Name"
 description: "A simple blog powered by Jekyll and GitHub Pages."
 theme: minima
 
-# URL setup
-baseurl: "" # keep this empty for username.github.io
+# --- IMPORTANT ---
+# If your repo is username.github.io (user site):
 url: "https://username.github.io"
+baseurl: ""      # keep empty for user/organization sites
 
-# Build settings
+# If your repo is a project site (e.g., my-blog):
+# url: "https://username.github.io"
+# baseurl: "/my-blog"  # <-- uncomment & set to your repo name
+
+# Show "About" in the header nav
+header_pages:
+  - about.md
+
 plugins:
   - jekyll-feed
