@@ -3,6 +3,5 @@ layout: home
 title: "Home"
 ---
 
-Welcome to my blog! 🎉
-
-Here you’ll find posts on whatever I feel like writing about.
+Welcome to my blog! 🎉  
+See the [About page]({{ "/about/" | relative_url }}).
