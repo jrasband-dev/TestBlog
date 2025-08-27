@@ -2,7 +2,7 @@ title: "My GitHub Blog"
 author: "Your Name"
 description: "A simple blog powered by Jekyll and GitHub Pages."
 remote_theme: pages-themes/hacker@v0.2.0
-permalink: /:title/
+permalink: /TestBlog/:title/
 
 # --- IMPORTANT ---
 # If your repo is username.github.io (user site):
