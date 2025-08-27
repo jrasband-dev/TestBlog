@@ -4,17 +4,12 @@ title: "Welcome to My Blog"
 date: 2025-08-27
 ---
 
-This is my very first blog post! 🚀  
+This is my very first blog post! 🚀
 
-I’m building this site with **GitHub Pages** and **Jekyll**. The setup was surprisingly easy:
+I’m building this site with **GitHub Pages** and **Jekyll**. The setup is simple:
 
-1. Create a GitHub repo named `username.github.io`.
-2. Add Jekyll config files and posts in Markdown.
-3. Commit → push → and it’s live!
+1. Create a repo (user site: `username.github.io`, or project site: any name).
+2. Set `url` and `baseurl` in `_config.yml` correctly.
+3. Use `relative_url` in links so they work on both site types.
 
-I’ll be writing about:
-- Coding experiments 💻
-- Projects I’m working on 🔨
-- Random thoughts ☕
-
-Thanks for stopping by — more posts soon!
+Check out the [About page]({{ "/about/" | relative_url }}).
