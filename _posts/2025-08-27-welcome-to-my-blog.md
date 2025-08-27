@@ -2,7 +2,6 @@
 layout: post
 title: "Welcome to My Blog"
 date: 2025-08-27
-permalink: /:title/
 ---
 
 This is my very first blog post! 🚀
