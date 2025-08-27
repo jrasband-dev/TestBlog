@@ -2,6 +2,8 @@ title: "My GitHub Blog"
 author: "Your Name"
 description: "A simple blog powered by Jekyll and GitHub Pages."
 remote_theme: pages-themes/hacker@v0.2.0
+
+# Default Permalink
 permalink: /TestBlog/:title/
 
 # --- IMPORTANT ---
@@ -9,15 +11,12 @@ permalink: /TestBlog/:title/
 url: "https://username.github.io/TestBlog"
 baseurl: ""      # keep empty for user/organization sites
 
-# If your repo is a project site (e.g., my-blog):
-# url: "https://username.github.io/TestBlog"
-# baseurl: "/my-blog"  # <-- uncomment & set to your repo name
-
-# Show "About" in the header nav
+# Header Navigation
 header_pages:
   - index.md
   - about.md
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
