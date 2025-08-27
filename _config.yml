@@ -15,6 +15,7 @@ baseurl: ""      # keep empty for user/organization sites
 # Show "About" in the header nav
 header_pages:
   - index.md
+  - about.md
 
 plugins:
   - jekyll-feed
