@@ -1,0 +1,12 @@
+title: "My GitHub Blog"
+author: "Your Name"
+description: "A simple blog powered by Jekyll and GitHub Pages."
+theme: minima
+
+# URL setup
+baseurl: "" # keep this empty for username.github.io
+url: "https://username.github.io"
+
+# Build settings
+plugins:
+  - jekyll-feed
