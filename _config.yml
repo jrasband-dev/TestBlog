@@ -9,7 +9,7 @@ url: "https://username.github.io"
 baseurl: ""      # keep empty for user/organization sites
 
 # If your repo is a project site (e.g., my-blog):
-# url: "https://username.github.io"
+# url: "https://username.github.io/TestBlog"
 # baseurl: "/my-blog"  # <-- uncomment & set to your repo name
 
 # Show "About" in the header nav
